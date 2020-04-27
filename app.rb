@@ -19,6 +19,7 @@ class App < Sinatra::Base
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
+    "first: #{params[:word1]}, second: #{params[:word2]}, third: #{params[:word3]}, fourth: #{params[:word4]}, fifth: #{params[:word5]},"
   end
   
   get '/:operation/:number1/:number2' do
