@@ -28,7 +28,8 @@ class App < Sinatra::Base
     @num2 = params[:number2]
       if @math_sym == "plus"
         @num1+@num2
-      e
+      elsif @math_sym =="subtract"
+        @num1-@num2
     end
   end
   
