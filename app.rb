@@ -28,6 +28,7 @@ class App < Sinatra::Base
     @num2 = params[:number2]
       if @math_sym == "plus"
         @num1+@num2
+      e
     end
   end
   
