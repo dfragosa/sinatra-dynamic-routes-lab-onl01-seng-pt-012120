@@ -26,7 +26,13 @@ class App < Sinatra::Base
     @math_sym = params[:operation]
     @num1 = params[:number1]
     @num2 = params[:number2]
+    case = @math_sym
+    when @math_sym = +
     @num1+@num2.to_s
+    @num1-@num2.to_s
+    @num1*@num2.to_s
+    @num1/@num2.to_s
+    
   end
   
 end
