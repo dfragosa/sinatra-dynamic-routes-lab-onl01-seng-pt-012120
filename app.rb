@@ -35,7 +35,7 @@ class App < Sinatra::Base
       elsif @math_sym == "divide"
       answer =  @num1/@num2
       else
-        ""
+       answer = "Cannot perform operation"
     end
   end
   
