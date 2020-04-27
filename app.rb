@@ -23,7 +23,7 @@ class App < Sinatra::Base
   end
   
   get '/:operation/:number1/:number2' do
-    @math_sym = params[:operation].to_s
+    @math_sym = params[:operation]
     @num1 = params[:number1]
     @num2 = params[:number2]
     case = @math_sym
