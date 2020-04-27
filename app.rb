@@ -29,9 +29,9 @@ class App < Sinatra::Base
     case = @math_sym
     when @math_sym = +
     @num1+@num2.to_s
-    @num1-@num2.to_s
-    @num1*@num2.to_s
-    @num1/@num2.to_s
+    # @num1-@num2.to_s
+    # @num1*@num2.to_s
+    # @num1/@num2.to_s
     
   end
   
