@@ -27,13 +27,13 @@ class App < Sinatra::Base
     @num1 = params[:number1]
     @num2 = params[:number2]
       if @math_sym == "add"
-        @num1+@num2
+      answer =  @num1+@num2
       elsif @math_sym =="subtract"
-        @num1-@num2
+      answer =  @num1-@num2
       elsif @math_sym == "multiply"
-        @num1*@num2
+      answer =  @num1*@num2
       elsif @math_sym == "divide"
-        @num1/@num2
+      answer =  @num1/@num2
       else
         ""
     end
