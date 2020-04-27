@@ -32,7 +32,10 @@ class App < Sinatra::Base
         @num1-@num2
       elsif @math_sym == "multiply"
         @num1*@num2
-      elsif @math_sym == ""
+      elsif @math_sym == "divide"
+        @num1/@num2
+      else
+        
     end
   end
   
