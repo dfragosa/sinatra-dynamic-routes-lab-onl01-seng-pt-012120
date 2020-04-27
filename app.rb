@@ -35,7 +35,7 @@ class App < Sinatra::Base
       elsif @math_sym == "divide"
         @num1/@num2
       else
-        
+        ""
     end
   end
   
