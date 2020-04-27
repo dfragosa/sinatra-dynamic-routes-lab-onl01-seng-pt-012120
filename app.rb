@@ -30,6 +30,8 @@ class App < Sinatra::Base
         @num1+@num2
       elsif @math_sym =="subtract"
         @num1-@num2
+      elsif @math_sym == "multiply"
+        @num1*@num2
     end
   end
   
