@@ -26,7 +26,7 @@ class App < Sinatra::Base
     @math_sym = params[:operation]
     @num1 = params[:number1]
     @num2 = params[:number2]
-      if @math_sym == "plus"
+      if @math_sym == "add"
         @num1+@num2
       elsif @math_sym =="subtract"
         @num1-@num2
