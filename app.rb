@@ -4,7 +4,7 @@ class App < Sinatra::Base
   # Write your code here!
   
   get '/square/:number' do
-    @square = params[:number].to_i **
+    @square = params[:number].to_i * self
     "#{square}"
   end
   
