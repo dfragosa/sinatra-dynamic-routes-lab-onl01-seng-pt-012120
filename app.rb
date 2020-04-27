@@ -14,6 +14,7 @@ class App < Sinatra::Base
   
   get '/say/:number/:phrase' do 
     @phrase = "show me the money"
+    3.times "#{@phrase}"
     
     
   end
